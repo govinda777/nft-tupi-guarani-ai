@@ -4,7 +4,7 @@ const appData = {
     {
       id: 1,
       nome: "Guerreiro Tupi #001",
-      imagem: "https://via.placeholder.com/400x400/228B22/FFFFFF?text=Guerreiro+Tupi",
+      imagem: "public/img/image.png",
       raridade: "Lendário",
       preco: "0.05 ETH",
       descricao: "NFT gerado por IA representando um guerreiro da tradição Tupi-Guarani"
@@ -12,7 +12,7 @@ const appData = {
     {
       id: 2,
       nome: "Pajé Guarani #002", 
-      imagem: "https://via.placeholder.com/400x400/8B4513/FFFFFF?text=Paje+Guarani",
+      imagem: "public/img/image1.png",
       raridade: "Épico",
       preco: "0.03 ETH",
       descricao: "Representação artística de um pajé da cultura Guarani"
@@ -20,7 +20,7 @@ const appData = {
     {
       id: 3,
       nome: "Curumim Tupi #003",
-      imagem: "https://via.placeholder.com/400x400/DAA520/FFFFFF?text=Curumim+Tupi",
+      imagem: "public/img/image2.png",
       raridade: "Raro",
       preco: "0.02 ETH",
       descricao: "Jovem guerreiro Tupi em formação"
@@ -48,28 +48,28 @@ const appData = {
     {
       id: 1,
       nome: "Tuxaua Tupi",
-      imagem: "https://via.placeholder.com/300x300/FF4500/FFFFFF?text=Tuxaua",
+      imagem: "public/img/image3.png",
       preco: "0.08 ETH",
       raridade: "Lendário"
     },
     {
       id: 2,
       nome: "Cunhã Poranga",
-      imagem: "https://via.placeholder.com/300x300/9932CC/FFFFFF?text=Cunha",
+      imagem: "public/img/image.png",
       preco: "0.04 ETH",
       raridade: "Épico"
     },
     {
       id: 3,
       nome: "Uirapuru Sagrado",
-      imagem: "https://via.placeholder.com/300x300/32CD32/FFFFFF?text=Uirapuru",
+      imagem: "public/img/image1.png",
       preco: "0.06 ETH",
       raridade: "Místico"
     },
     {
       id: 4,
       nome: "Caipora Protetor",
-      imagem: "https://via.placeholder.com/300x300/8B4513/FFFFFF?text=Caipora",
+      imagem: "public/img/image2.png",
       preco: "0.03 ETH",
       raridade: "Raro"
     }
