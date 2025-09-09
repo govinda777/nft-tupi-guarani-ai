@@ -7,6 +7,11 @@ Para entender melhor o funcionamento do projeto, as jornadas de usuário e as di
 
 - **[Jornadas de Usuário](./docs/JORNADAS_DE_USUARIO.md):** Descreve a experiência dos diferentes tipos de usuários na plataforma.
 - **[Guia da Comunidade](./docs/COMUNIDADE.md):** Detalha os valores, benefícios e regras da nossa comunidade.
+- **[Protocolo de Geração de Imagem por IA](./docs/PROTOCOLO_AI.md):** Explica como nossa IA cria as NFTs.
+- **[Estratégia de Mint de NFTs](./docs/ESTRATEGIA_MINT.md):** Detalha como funciona o processo de mint de novas NFTs.
+- **[Tesouraria da Comunidade](./docs/TESOURARIA.md):** Descreve como a tesouraria financia o projeto.
+- **[Balancete da DAO](./docs/BALANCETE_DAO.md):** Apresenta as fontes de receita e os custos da DAO.
+- **[Frameworks de Auditoria](./docs/AUDITORIA.md):** Mostra as ferramentas que usamos para garantir a segurança da DAO.
 
 ---
 
