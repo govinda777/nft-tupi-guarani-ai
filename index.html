@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT TUPI GUARANI AI - Cultura Digital Ancestral</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__logo">
+                    <h1>🏹 TUPI GUARANI AI</h1>
+                </div>
+                <nav class="header__nav">
+                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#airdrops" class="nav-link">Airdrops</a>
+                    <a href="#mint" class="nav-link">Mint Diário</a>
+                    <a href="#marketplace" class="nav-link">Marketplace</a>
+                    <a href="#comunidade" class="nav-link">Comunidade</a>
+                    <a href="#one-button" class="nav-link">One Stupid Button</a>
+                </nav>
+                <button class="btn btn--primary" id="connect-wallet">Conectar Carteira</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <h1 class="hero__title">NFT TUPI GUARANI AI</h1>
+                <p class="hero__subtitle">Onde Tradição Ancestral Encontra Inteligência Artificial</p>
+                <p class="hero__description">
+                    Uma coleção única de NFTs gerados por IA que celebra a rica cultura Tupi-Guarani,
+                    criando arte digital que honra nossos ancestrais e conecta passado e futuro.
+                </p>
+                <div class="hero__stats">
+                    <div class="stat">
+                        <span class="stat__number" id="total-members">2847</span>
+                        <span class="stat__label">Membros</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number" id="nfts-minted">1203</span>
+                        <span class="stat__label">NFTs Mintados</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number">45,230</span>
+                        <span class="stat__label">TUPI Distribuídos</span>
+                    </div>
+                </div>
+                <div class="hero__buttons">
+                    <button class="btn btn--primary btn--lg">Explorar Coleção</button>
+                    <button class="btn btn--outline btn--lg" id="learn-more">Saiba Mais</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Airdrops Section -->
+    <section id="airdrops" class="section airdrops">
+        <div class="container">
+            <h2 class="section__title">Airdrops Sagrados</h2>
+            <p class="section__description">
+                Receba tokens e NFTs exclusivos através dos nossos airdrops inspirados nos ciclos da natureza e tradições ancestrais.
+            </p>
+            
+            <div class="airdrops__info">
+                <div class="info-card">
+                    <h3>Como Funcionam os Airdrops</h3>
+                    <ul>
+                        <li><strong>Airdrop Padrão:</strong> Distribuição gratuita para holders</li>
+                        <li><strong>Airdrop de Recompensa:</strong> Complete tarefas e ganhe tokens</li>
+                        <li><strong>Airdrop Exclusivo:</strong> Para membros selecionados da comunidade</li>
+                        <li><strong>Airdrop para Holders:</strong> Recompensas por manter NFTs</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="airdrops__active">
+                <h3>Airdrops Ativos</h3>
+                <div class="airdrops__grid" id="airdrops-grid">
+                    <!-- Preenchido via JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mint Diário Section -->
+    <section id="mint" class="section mint-daily">
+        <div class="container">
+            <h2 class="section__title">Mint Diário pela IA</h2>
+            <p class="section__description">
+                Todos os dias, nossa inteligência artificial cria um novo NFT único inspirado na cultura Tupi-Guarani.
+            </p>
+
+            <div class="mint-daily__content">
+                <div class="mint-daily__featured">
+                    <div class="nft-card nft-card--featured" id="daily-nft">
+                        <!-- Preenchido via JavaScript -->
+                    </div>
+                </div>
+                
+                <div class="mint-daily__info">
+                    <div class="info-card">
+                        <h3>🤖 Como Funciona a IA</h3>
+                        <p>Nossa IA estuda padrões tradicionais Tupi-Guarani, mitologia e elementos da natureza para criar arte única diariamente.</p>
+                        <div class="timer" id="next-mint-timer">
+                            <span class="timer__label">Próximo NFT em:</span>
+                            <div class="timer__display">
+                                <span id="hours">04</span>:<span id="minutes">23</span>:<span id="seconds">17</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mint-daily__history">
+                <h3>NFTs Anteriores</h3>
+                <div class="nft-grid" id="previous-nfts">
+                    <!-- Preenchido via JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marketplace Section -->
+    <section id="marketplace" class="section marketplace">
+        <div class="container">
+            <h2 class="section__title">Marketplace Ancestral</h2>
+            <p class="section__description">
+                Descubra, compre e venda NFTs únicos da cultura Tupi-Guarani.
+            </p>
+
+            <div class="marketplace__filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="Lendário">Lendário</button>
+                <button class="filter-btn" data-filter="Épico">Épico</button>
+                <button class="filter-btn" data-filter="Místico">Místico</button>
+                <button class="filter-btn" data-filter="Raro">Raro</button>
+            </div>
+
+            <div class="marketplace__grid" id="marketplace-grid">
+                <!-- Preenchido via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Comunidade Section -->
+    <section id="comunidade" class="section community">
+        <div class="container">
+            <h2 class="section__title">Comunidade Tupi-Guarani</h2>
+            <p class="section__description">
+                Una-se à nossa tribo digital e conecte-se com outros admiradores da cultura ancestral.
+            </p>
+
+            <div class="community__content">
+                <div class="community__join">
+                    <div class="info-card">
+                        <h3>Como Entrar na Comunidade</h3>
+                        <ol>
+                            <li>Conecte sua carteira Web3</li>
+                            <li>Mintar pelo menos 1 NFT ou possuir tokens TUPI</li>
+                            <li>Seguir nossos canais sociais</li>
+                            <li>Aceitar os valores da comunidade</li>
+                        </ol>
+                        <button class="btn btn--primary btn--full-width" id="join-community">Entrar na Comunidade</button>
+                    </div>
+                </div>
+
+                <div class="community__benefits">
+                    <div class="info-card">
+                        <h3>Benefícios dos Membros</h3>
+                        <ul>
+                            <li>🎁 Acesso a airdrops exclusivos</li>
+                            <li>💬 Chat privado da comunidade</li>
+                            <li>🗳️ Votação em decisões importantes</li>
+                            <li>📚 Conteúdo educativo sobre cultura indígena</li>
+                            <li>🏆 Recompensas por participação ativa</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="community__stats">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <span class="stat-card__number">2,847</span>
+                        <span class="stat-card__label">Membros Ativos</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-card__number">1,203</span>
+                        <span class="stat-card__label">NFTs Mintados</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-card__number">45,230</span>
+                        <span class="stat-card__label">TUPI Distribuídos</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-card__number">12</span>
+                        <span class="stat-card__label">Airdrops Realizados</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- One Stupid Button Section -->
+    <section id="one-button" class="section one-button">
+        <div class="container">
+            <h2 class="section__title">One Stupid Button</h2>
+            <p class="section__description">
+                Um jogo arriscado: cada clique dobra o valor necessário para o próximo. O último a clicar leva tudo!
+            </p>
+
+            <div class="one-button__content">
+                <div class="one-button__main">
+                    <div class="button-display">
+                        <div class="button-info">
+                            <div class="current-cost">
+                                <span class="label">Custo Atual:</span>
+                                <span class="value" id="current-cost">8 TUPI</span>
+                            </div>
+                            <div class="next-cost">
+                                <span class="label">Próximo Custo:</span>
+                                <span class="value" id="next-cost">16 TUPI</span>
+                            </div>
+                            <div class="reward-pool">
+                                <span class="label">Recompensa Acumulada:</span>
+                                <span class="value" id="reward-pool">127 TUPI</span>
+                            </div>
+                        </div>
+                        
+                        <button class="stupid-button" id="stupid-button">
+                            <span class="button-text">CLIQUE POR 8 TUPI</span>
+                            <span class="button-warning">⚠️ RISCO ALTO ⚠️</span>
+                        </button>
+                        
+                        <div class="button-warning-text">
+                            <p><strong>⚠️ ATENÇÃO:</strong> Este é um jogo de alto risco. Você pode perder seus tokens!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="one-button__history">
+                    <h3>Histórico Recente</h3>
+                    <div class="history-list" id="button-history">
+                        <!-- Preenchido via JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3>NFT TUPI GUARANI AI</h3>
+                    <p>Preservando e celebrando a cultura indígena através da tecnologia blockchain.</p>
+                </div>
+                <div class="footer__section">
+                    <h4>Links Úteis</h4>
+                    <ul>
+                        <li><a href="#" target="_blank">Documentação</a></li>
+                        <li><a href="#" target="_blank">FAQ</a></li>
+                        <li><a href="#" target="_blank">Suporte</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4>Comunidade</h4>
+                    <ul>
+                        <li><a href="#" target="_blank">Discord</a></li>
+                        <li><a href="#" target="_blank">Twitter</a></li>
+                        <li><a href="#" target="_blank">Telegram</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4>Cultura & Educação</h4>
+                    <ul>
+                        <li><a href="#" target="_blank">Sobre os Tupi-Guarani</a></li>
+                        <li><a href="#" target="_blank">Arte Indígena</a></li>
+                        <li><a href="#" target="_blank">Preservação Cultural</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 NFT TUPI GUARANI AI. Feito com ❤️ para preservar nossa cultura ancestral.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modais -->
+    <div class="modal hidden" id="wallet-modal">
+        <div class="modal__backdrop"></div>
+        <div class="modal__content">
+            <div class="modal__header">
+                <h3>Conectar Carteira</h3>
+                <button class="modal__close">&times;</button>
+            </div>
+            <div class="modal__body">
+                <p>Escolha sua carteira para se conectar:</p>
+                <div class="wallet-options">
+                    <button class="wallet-option">
+                        <span>🦊 MetaMask</span>
+                    </button>
+                    <button class="wallet-option">
+                        <span>👛 WalletConnect</span>
+                    </button>
+                    <button class="wallet-option">
+                        <span>🔗 Coinbase Wallet</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal hidden" id="info-modal">
+        <div class="modal__backdrop"></div>
+        <div class="modal__content">
+            <div class="modal__header">
+                <h3 id="modal-title">Informações</h3>
+                <button class="modal__close">&times;</button>
+            </div>
+            <div class="modal__body" id="modal-body">
+                <!-- Conteúdo dinâmico -->
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
